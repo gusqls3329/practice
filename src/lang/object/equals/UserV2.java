@@ -14,10 +14,11 @@ public class UserV2 {
     @Override
     public boolean equals(Object obj) {
         UserV2 user = (UserV2) obj;
-        return id.equals(user.id);
+        return id.equals(user.id);  //String.equals는 문자열 비교
     }
 */
 
+    //동등성 구현
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
