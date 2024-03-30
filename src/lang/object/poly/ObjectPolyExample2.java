@@ -7,6 +7,7 @@ public class ObjectPolyExample2 {
         Car car = new Car();
         Object object = new Object(); //Object 인스턴스도 만들 수 있다.
 
+        //오브젝트 배열
         Object[] objects = {dog, car, object};
 
         size(objects);

@@ -10,7 +10,11 @@ public class ToStringMain1 {
         System.out.println(string);
 
         //object 직접 출력
+        System.out.println(object.toString());
         System.out.println(object);
+
+
+        //hashCode : 객체의 참조값
     }
 
 }
