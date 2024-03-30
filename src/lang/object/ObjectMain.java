@@ -7,7 +7,12 @@ public class ObjectMain {
         child.childMethod();
         child.parentMethod();
 
+        Parent parent = new Parent();
+        //parent.childMethod();
+        parent.parentMethod();
+
         // toString()은 Object 클래스의 메서드
+        // toString()은 객체에 대한 정보를 제공해줌
         String string = child.toString();
         System.out.println(string);
     }
