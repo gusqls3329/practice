@@ -11,6 +11,7 @@ public class RefMain1_1 {
 
         b.setValue("부산"); //b의 값을 부산으로 변경해야함
         // 사이드이펙트 : 작업 외 다른 추가적 부수효과를 일으킴 지금은 b를 바꾸었지만 a도 바뀜 (코딩에서는 부정적 의미) - 디버깅이 어려움
+
         System.out.println("부산 -> b");
         System.out.println("a = " + a);
         System.out.println("b = " + b);

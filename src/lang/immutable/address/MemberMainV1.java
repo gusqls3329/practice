@@ -13,7 +13,7 @@ public class MemberMainV1 {
         System.out.println("memberB = " + memberB);
 
         //회원B의 주소를 부산으로 변경해야함
-        memberB.getAddress().setValue("부산");
+        memberB.getAddress().setValue("부산");  //컴파일오류는 없지만 사이드 이펙트 발생
         System.out.println("부산 -> memberB.address");
         System.out.println("memberA = " + memberA);
         System.out.println("memberB = " + memberB);
